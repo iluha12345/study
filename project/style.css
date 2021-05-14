@@ -1,0 +1,141 @@
+/* latin */
+@font-face {
+    font-family: 'Monoton';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/monoton/v10/5h1aiZUrOngCibe4TkHLQg.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/khand/v9/TwMN-IINQlQQ0bL5cGEwbQc.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/khand/v9/TwMN-IINQlQQ0bKNdmEwbQc.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  body{
+      margin: 0;
+
+      font-family: 'Khand', sans-serif;
+      font-weight: normal;
+      font-style: normal;    
+  }
+
+  .header{
+    background-image: url('img/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: min(1920px, 1080px);
+
+    display: flex;
+    align-items: stretch;
+  }
+  .header_main{
+    
+    flex-basis: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px 0 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .header nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    border-top: 3px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+    
+  }
+
+  .header nav ul li {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+
+    padding: 11px 0 15px;
+    
+    text-align: center;
+
+    
+}
+
+  .header nav a{
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 35px;
+  }
+
+  a{
+    color: white;
+  }
+
+  a:hover{
+    color:wheat;
+  }
+  .header__about_company{
+    flex-basis: 100%;
+    
+    margin: 0 auto;  
+  }
+
+  .title__about_company{
+    font-family: 'Monoton';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 150px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .paragraph__about_company{
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    color: white;
+    border: 3px solid white;
+     
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .header_action{
+   text-align: center;
+    margin-top: 70px;
+  }
+
+  .header_action a{
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    
+    border: 3px solid white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+  }
+
