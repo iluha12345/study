@@ -1,0 +1,9 @@
+1: https://www.codewars.com/kata/reviews/5425fedf430ca265ea00033e/groups/60a8e2180be3d700012e7179
+2: https://www.codewars.com/kata/reviews/556b81de1f97c84309000179/groups/556eb6d92291e27e9f0000d0
+3: https://www.codewars.com/kata/reviews/552253df667a8dbf76000447/groups/55225935e1be1e4623000414
+4: https://www.codewars.com/kata/reviews/555086ff587c4e3a7e000095/groups/5554a642109c37353d00006e
+5: https://www.codewars.com/kata/reviews/54a59ef00c96357db90000e9/groups/54a6c5f1478d8e4daa000aac
+6: https://www.codewars.com/kata/reviews/568d4ea6ab0a10c7210000f2/groups/60a8ed76143eb90001f2fc01
+7: https://www.codewars.com/kata/reviews/57357409555270d3f000001b/groups/60a8ee6b093f44000191d012
+
+

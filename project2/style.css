@@ -1,0 +1,611 @@
+/* vietnamese */
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/josefinsans/v17/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_LjQbMlhLzTs.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/josefinsans/v17/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_LjQbMhhLzTs.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/josefinsans/v17/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_LjQbMZhLw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/josefinsans/v17/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMlhLzTs.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/josefinsans/v17/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMhhLzTs.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/josefinsans/v17/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMZhLw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  body{
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;  
+    min-width: 1100px;
+  }
+ .logo{
+    color: white;
+    margin: auto 0;
+   font-size: 30px;
+ }
+ .menu{ 
+    
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1100px;
+ }
+
+  .header{
+      z-index: 1000;
+      position: fixed;
+      top: 0;
+      width: 100%; 
+      background-color: black;
+      display: flex; 
+      justify-content: space-between;
+  }
+ .nav a{
+     color: white;
+     text-decoration: none;
+     font-size: 28px;
+     
+ }
+ .navigation nav ul{
+     list-style: none;
+     display: flex;
+ }
+
+ .header nav ul li {
+    text-align: center;
+    padding-right: 50px;
+ }
+
+ .nav a:hover{
+     color: #18cfab;
+     transition: 0.6s;
+ }
+ .nav a:after {
+    display: block; 
+    content: ""; 
+    height: 3px; 
+    width: 0%; 
+    background-color: #18cfab; 
+    transition: width 0.6s ease-in-out; 
+    }
+
+.nav a:hover:after,
+.nav a:focus:after {
+width: 100%;
+}
+
+.section1{
+    background-image: url('img/1.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+        
+    
+}
+.annotation{
+   
+    height: 800px;
+    width: 1100px;
+    margin: auto;
+    text-align: center;
+    padding-top: 400px;
+    
+}
+
+.logo a{
+  text-decoration: none;
+  color: white;
+}
+
+.creative{
+    font-size: 100px;
+    font-weight: 400;
+    color: white;
+}
+.just__buy{
+    font-size: 80px;
+    font-weight: 200;
+    color: white;
+}
+
+.art_crafts{
+  font-weight: 200;
+  font-size: 100px;
+  color: #526a71;
+}
+
+.about__me{
+  width: 1100px;
+  margin: auto;
+  text-align: center;
+  color:#18cfab;
+  font-weight: 200;
+  font-size: 45px;
+    
+  
+}
+
+.first_line__about_me{
+  
+  border-top: 2px solid #18cfab;
+  width: 500px;
+  margin: 50px auto;
+  
+}
+.second_line__about_me{
+  border-top: 2px solid #18cfab;
+  width: 500px;
+  margin: auto;
+}
+
+/* Слайдер */
+.slider{
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+  height: 600px;
+}
+/* Картинка масштабируется по отношению к родительскому элементу */
+.slider .item img {
+  object-fit: cover;
+  width: 1100px;
+  height: 600px;
+}
+
+
+
+/* Кнопки вперед и назад */
+.slider .previous, .slider .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.slider .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.slider .previous{
+  left: 0;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider .previous:hover,
+.slider .next:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* Анимация слайдов */
+.slider .item {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+@keyframes fade {
+  from {
+      opacity: 0.2
+  }
+  to {
+      opacity: 1
+  }
+}
+
+.about__me__candles{
+  margin-top: 150px;
+}
+
+/* Слайдер */
+.slider2{
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+  height: 600px;
+}
+/* Картинка масштабируется по отношению к родительскому элементу */
+.slider2 .item1 img {
+  object-fit: cover;
+  width: 1100px;
+  height: 600px;
+}
+
+
+
+/* Кнопки вперед и назад */
+.slider2 .previous, .slider2 .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.slider2 .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.slider2 .previous{
+  left: 0;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider2 .previous:hover,
+.slider2 .next:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* Анимация слайдов */
+.slider2 .item1 {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+@keyframes fade {
+  from {
+      opacity: 0.2
+  }
+  to {
+      opacity: 1
+  }
+}
+
+/* Слайдер */
+.slider3{
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+  height: 600px;
+}
+/* Картинка масштабируется по отношению к родительскому элементу */
+.slider3 .item2 img {
+  object-fit: cover;
+  width: 1100px;
+  height: 600px;
+}
+
+
+
+/* Кнопки вперед и назад */
+.slider3 .previous, .slider3 .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.slider3 .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.slider3 .previous{
+  left: 0;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider3 .previous:hover,
+.slider3 .next:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* Анимация слайдов */
+.slider3 .item2 {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+@keyframes fade {
+  from {
+      opacity: 0.2
+  }
+  to {
+      opacity: 1
+  }
+}
+
+.about__me__stones{
+  margin-top: 150px;
+}
+
+
+/* Слайдер */
+.slider4{
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+  height: 600px;
+}
+/* Картинка масштабируется по отношению к родительскому элементу */
+.slider4 .item3 img {
+  object-fit: cover;
+  width: 1100px;
+  height: 600px;
+}
+
+
+
+/* Кнопки вперед и назад */
+.slider4 .previous, .slider4 .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.slider4 .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.slider4 .previous{
+  left: 0;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider4 .previous:hover,
+.slider4 .next:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* Анимация слайдов */
+.slider4 .item3 {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+@keyframes fade {
+  from {
+      opacity: 0.2
+  }
+  to {
+      opacity: 1
+  }
+}
+
+.about__me__art{
+  margin-top: 150px;
+}
+
+/* Слайдер */
+.slider5{
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+  height: 600px;
+}
+/* Картинка масштабируется по отношению к родительскому элементу */
+.slider5 .item4 img {
+  object-fit: cover;
+  width: 1100px;
+  height: 600px;
+}
+
+
+
+/* Кнопки вперед и назад */
+.slider5 .previous, .slider5 .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.slider5 .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.slider5 .previous{
+  left: 0;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider5 .previous:hover,
+.slider5 .next:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* Анимация слайдов */
+.slider5 .item4 {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+@keyframes fade {
+  from {
+      opacity: 0.2
+  }
+  to {
+      opacity: 1
+  }
+}
+
+.about__me__boxes{
+  margin-top: 150px;
+}
+
+.about__me__boxes{
+  margin-bottom: 50px;
+}
+
+.Contacts{
+  width: 100%; 
+  background-color: black;
+}
+.links{
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.links a{
+  text-decoration: none;
+  color:white;
+  font-size: 30px;
+  padding: 20px;
+}
+.links a:hover{
+  color: #18cfab;
+  transition: 0.6s;
+}
+.links a:after {
+  display: block; 
+  content: ""; 
+  height: 3px; 
+  width: 0%; 
+  background-color: #18cfab; 
+  transition: width 0.6s ease-in-out; 
+  }
+.links a:hover:after,
+.links a:focus:after {
+  width: 100%;
+  }
+.instagram{
+  display: flex;
+}
+.facebook{
+  display: flex;
+}
+.img_inst img{
+  padding-top: 8px;
+  vertical-align: middle;
+}
+.item a{
+  font-size: 80px;
+  text-decoration: none;
+  color: #18cfab;
+  
+}
+.item{
+  margin: 0;
+  font-size: 100px;
+  color: white;
+}
+.item a:hover{
+  color: black;
+  transition: 0.6s;
+}
+.text{
+  background-color:black;
+  
+}
+
+.item1 a{
+  font-size: 80px;
+  text-decoration: none;
+  color: #18cfab;
+  
+}
+.item1{
+  margin: 0;
+  font-size: 100px;
+  color: white;
+}
+.item1 a:hover{
+  color: black;
+  transition: 0.6s;
+
+}
+
+.item2 a{
+  font-size: 80px;
+  text-decoration: none;
+  color: #18cfab;
+  
+}
+.item2{
+  margin: 0;
+  font-size: 100px;
+  color: white;
+}
+.item2 a:hover{
+  color: black;
+  transition: 0.6s;
+
+}
+
+.item3 a{
+  font-size: 80px;
+  text-decoration: none;
+  color: #18cfab;
+  
+}
+.item3{
+  margin: 0;
+  font-size: 100px;
+  color: white;
+}
+.item3 a:hover{
+  color: black;
+  transition: 0.6s;
+
+}
+
+.item4 a{
+  font-size: 80px;
+  text-decoration: none;
+  color: #18cfab;
+  
+}
+.item4{
+  margin: 0;
+  font-size: 100px;
+  color: white;
+}
+.item4 a:hover{
+  color: black;
+  transition: 0.6s;
+
+}

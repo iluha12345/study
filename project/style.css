@@ -41,9 +41,14 @@
     background-position: center;
     min-height: min(1920px, 1080px);
 
-    display: flex;
-    align-items: stretch;
+    
   }
+
+  .menu{
+    display: flex;
+    width: 1400px;
+  }
+
   .header_main{
     
     flex-basis: 100%;
@@ -84,15 +89,15 @@
     font-weight: 600;
     text-decoration: none;
     font-size: 35px;
-  }
-
-  a{
     color: white;
   }
-
-  a:hover{
+  .header nav a:hover{
     color:wheat;
+    transition: .5s;
   }
+  
+
+
   .header__about_company{
     flex-basis: 100%;
     
@@ -132,10 +137,119 @@
     font-style: normal;
     font-weight: 600;
     font-size: 50px;
-    
+    color:white;
     border: 3px solid white;
     text-transform: uppercase;
     text-decoration: none;
     padding: 15px 40px;
   }
+  .header_action a:hover{
+    color:wheat;
+    background-color: white;
+    transition: .5s;
+  }
+  
+  .previewGallery{
+    max-width: 1400px;
+    margin: auto;
+    color: #d08b7c;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+  }
+  .first_second{
+    display: flex;
+    justify-content: space-between;
+  }
+  .third_fourth{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
 
+  .img__link:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+
+.becomeMember{
+  margin-top: 30px;
+  background-image: url('img/hiring.jpg');
+  background-repeat: no-repeat;
+  
+ 
+  
+}
+.part{
+  margin-top: 50px;
+  margin:auto;
+  text-align: center;
+  max-width: 1400px;
+  font-size: 60px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.part a{
+  text-decoration: none;
+  color:white;
+}
+.part a:hover{
+  color:wheat;
+}
+
+.aboutWork{
+  margin-top: 50px;
+  margin:auto;
+  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  font-size: 25px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.contacts{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.our_contacts{
+  margin: auto;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-around;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 50px;
+}
+.our_contacts a{
+  text-decoration: none;
+  color: #d08b7c;
+}
+
+.our_contacts a:hover{
+  color:wheat;
+}
+
+.fb{
+  display: flex;
+}
+
+.inst{
+  display: flex;
+}
+
+.img_fb img{
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.paragraph{
+  max-width: 1400px;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+  color:#d08b7c;
+  font-weight: bold;
+}
